@@ -107,6 +107,36 @@ def lengthOfLongestSubstring(s):
         seen[letter] = right
     return ans
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 print(lengthOfLongestSubstring("abcabcbb"))
 print(lengthOfLongestSubstring("bbbbb"))
 print(lengthOfLongestSubstring("pwwkew"))
