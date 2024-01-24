@@ -23,10 +23,10 @@ def deleteDuplicates(head):
     
     
     #Print head to see what is in memory address
-    # current = head
-    # while current:
-    #     print(current.val)
-    #     current = current.next
+    current = head
+    while current:
+        print(current.val)
+        current = current.next
 
 # Example 1:
 
