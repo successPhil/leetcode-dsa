@@ -78,17 +78,17 @@ from collections import Counter
 
 
 
-# def lengthOfLongestSubstring(s):
-#     counts = set()
-#     left = ans = 0
+def lengthOfLongestSubstring(s):
+    counts = set()
+    left = ans = 0
 
-#     for right in range(len(s)):
-#         while s[right] in counts:
-#             counts.remove(s[left])
-#             left += 1
-#         counts.add(s[right])
-#         ans = max(ans, right - left + 1)
-#     return ans
+    for right in range(len(s)):
+        while s[right] in counts:
+            counts.remove(s[left])
+            left += 1
+        counts.add(s[right])
+        ans = max(ans, right - left + 1)
+    return ans
 
 
 #########################
